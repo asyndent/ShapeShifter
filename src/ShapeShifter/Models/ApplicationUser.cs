@@ -9,5 +9,9 @@ namespace ShapeShifter.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
+        public int UserId { get; set; }
+        public string Name { get; set; }
+        public string NickName { get; set; }
+        public decimal Age { get; set; }
     }
 }
